@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡単なWebサイト</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #440000;  /* 背景色を#440000に変更 */
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            color: #cc0000;  /* 文字色を#cc0000に変更 */
+        }
+
+        section {
+            margin: 20px 0;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #440000;  /* 背景色を#440000に変更 */
+            color: #ffffff;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>お菓子</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>好きなお菓子</h2>
+            <p>ラムネ</p>
+        </section>
+
+        <section>
+            <h2>嫌いなお菓子</h2>
+            <p>ポテチ</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 私のWebサイト</p>
+    </footer>
+</body>
+</html>
